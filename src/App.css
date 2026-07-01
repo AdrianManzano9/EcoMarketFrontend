@@ -1,0 +1,22 @@
+body{
+  background-color: #36e94e;
+}
+/* Estilo base para todos los botones del menú que no están seleccionados */
+.nav-btn {
+  background: none !important;
+  border: none;
+  color: #e8f5e9 !important;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+/* Estilo exclusivo para cuando el botón coincide con la vista activa */
+.nav-btn.active {
+  background-color: #1b5e20 !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
